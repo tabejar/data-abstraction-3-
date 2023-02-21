@@ -22,4 +22,5 @@ books = soup.find_all(id="gridItemRoot")
 print(books[0])
 book = books[0]
 rank = book.find('span', class_='zg-bdg-text').text[1:]
-print(rank)  
+print(rank)
+title = '_cDEzb_p13n-sc-css-line-clamp-1_1Fn1y'
